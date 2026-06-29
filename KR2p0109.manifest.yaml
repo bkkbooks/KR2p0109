@@ -1,0 +1,47 @@
+canonical_identifier: bkk:krp/KR2p0109/v1
+canonical_location: https://kanripo.org/bkk/KR2p0109/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 雜簡及其它考釋
+  identifiers:
+    krp: KR2p0109
+  tags:
+    kr-categories: KR2p
+  source:
+    repository: tls-texts
+    path: data/tls/KR2p0109.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR2p0109_001.yaml, hash: 'sha256:60632ae56d865098425102448c0c4bff7e7621c32ae1f5434c4d708eccf2038b'}
+  - {seq: 2, filename: KR2p0109_002.yaml, hash: 'sha256:540e8800d073b4091c5883a8227e288c2f36f44073e116f8877020abc518b700'}
+  markers:
+  - {seq: 2, role: markers, filename: assets/KR2p0109_002.markers.yaml, hash: 'sha256:59eb0d5aeba066ed209e0464d89492ad394a39b3f73a707280870e476da532bc'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR2p0109_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 266
+  label: 武威漢簡雜簡及其它考釋日忌雜占木簡考釋
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR2p0109_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 266
+  label: 武威漢簡雜簡及其它考釋王杖十簡考釋
+  type: section
+  level: 1
+hash: sha256:293c256a82e8bf862f1f057a6b8bd69b85c4f47e6355e562ca1215e721ac8c28
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
