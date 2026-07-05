@@ -17,9 +17,10 @@ metadata:
 assets:
   parts:
   - {seq: 1, filename: KR2p0109_001.yaml, hash: 'sha256:60632ae56d865098425102448c0c4bff7e7621c32ae1f5434c4d708eccf2038b'}
-  - {seq: 2, filename: KR2p0109_002.yaml, hash: 'sha256:540e8800d073b4091c5883a8227e288c2f36f44073e116f8877020abc518b700'}
+  - {seq: 2, filename: KR2p0109_002.yaml, hash: 'sha256:e8ae14828e4dc6ad2965e4232f72d99d08943752d041a794e251b9a17540428e'}
   markers:
-  - {seq: 2, role: markers, filename: assets/KR2p0109_002.markers.yaml, hash: 'sha256:59eb0d5aeba066ed209e0464d89492ad394a39b3f73a707280870e476da532bc'}
+  - {seq: 1, role: markers, filename: assets/KR2p0109_001.markers.yaml, hash: 'sha256:82bde307f3f21e43264a2530c7fe660e759f05a5024f62ca89aee752366e3311'}
+  - {seq: 2, role: markers, filename: assets/KR2p0109_002.markers.yaml, hash: 'sha256:66e6c2ff66354c08cd88f62b67549f4cc75394cb848359da19a441494482fd94'}
 table_of_contents:
 - ref:
     seq: 1
@@ -41,7 +42,4 @@ table_of_contents:
   label: 武威漢簡雜簡及其它考釋王杖十簡考釋
   type: section
   level: 1
-hash: sha256:293c256a82e8bf862f1f057a6b8bd69b85c4f47e6355e562ca1215e721ac8c28
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:c018745fd6c0ebd1c3eab183c8e61b6e98478a84cfddc7ed43bd658314fb3f71
