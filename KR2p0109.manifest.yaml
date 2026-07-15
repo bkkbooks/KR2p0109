@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR2p0109/v1
 canonical_location: https://kanripo.org/bkk/KR2p0109/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 雜簡及其它考釋
   identifiers:
@@ -17,10 +17,10 @@ metadata:
 assets:
   parts:
   - {seq: 1, filename: KR2p0109_001.yaml, hash: 'sha256:60632ae56d865098425102448c0c4bff7e7621c32ae1f5434c4d708eccf2038b'}
-  - {seq: 2, filename: KR2p0109_002.yaml, hash: 'sha256:e8ae14828e4dc6ad2965e4232f72d99d08943752d041a794e251b9a17540428e'}
+  - {seq: 2, filename: KR2p0109_002.yaml, hash: 'sha256:279bcfae9c4cec2338570d55436247009b62704672c03ab8a3e08af7502b29b0'}
   markers:
   - {seq: 1, role: markers, filename: assets/KR2p0109_001.markers.yaml, hash: 'sha256:82bde307f3f21e43264a2530c7fe660e759f05a5024f62ca89aee752366e3311'}
-  - {seq: 2, role: markers, filename: assets/KR2p0109_002.markers.yaml, hash: 'sha256:66e6c2ff66354c08cd88f62b67549f4cc75394cb848359da19a441494482fd94'}
+  - {seq: 2, role: markers, filename: assets/KR2p0109_002.markers.yaml, hash: 'sha256:1230e07a0b07919d61e9f59b06f0282c3d092099f2bc09767bc44f8ef819b2ba'}
 table_of_contents:
 - ref:
     seq: 1
@@ -42,4 +42,7 @@ table_of_contents:
   label: 武威漢簡雜簡及其它考釋王杖十簡考釋
   type: section
   level: 1
-hash: sha256:c018745fd6c0ebd1c3eab183c8e61b6e98478a84cfddc7ed43bd658314fb3f71
+hash: sha256:484947816bc1373461f70ce6f645a0c27854c336c2a4e64a2caed66fe81891a2
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
